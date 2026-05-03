@@ -1,0 +1,180 @@
+<html>
+
+<head>
+    <style>
+
+        body {
+            background-color: #373749;
+            margin: 0;
+            padding: 40px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="image-container">
+            <img id="Moon_Icon" src="img/Original/ori_1.png">
+        </div>
+
+        <div class="image-container">
+            <img id="Bed_Icon" src="img/Original/ori_2.png">
+        </div>
+
+        <div class="image-container">
+            <img id="Book_Icon" src="img/Original/ori_3.png">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="image-container">
+            <img id="Brain_Icon" src="img/Original/ori_4.png">
+        </div>
+
+        <div class="image-container">
+            <img id="Stats_Icon" src="img/Original/ori_5.png">
+        </div>
+
+        <div class="image-container">
+            <img id="Star_Icon" src="img/Original/ori_6.png">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="image-container">
+            <img id="Spiral_Icon" src="img/Original/ori_7.png">
+        </div>
+
+        <div class="image-container">
+            <img id="Eye_Icon" src="img/Original/ori_8.png">
+        </div>
+
+        <div class="image-container">
+            <img id="House_Icon" src="img/Original/ori_9.png">
+        </div>
+    </div>
+
+</body>
+
+<script>
+    const MoonIcon = document.getElementById ("Moon_Icon")
+    const MoonSound = new Audio ()
+    MoonSound.src = "Sound/1.mp3"
+    MoonIcon.onpointerdown = () => {
+        MoonSound.play ()
+        MoonIcon.src = "img/Changed/chg_1.png"
+        setTimeout (() => {
+            MoonIcon.src = "img/Original/ori_1.png"
+        }, 2000)
+    }
+
+
+    const BedIcon = document.getElementById ("Bed_Icon")
+    const BedSound = new Audio ()
+    BedSound.src = "Sound/2.mp3"
+    BedIcon.onpointerdown = () => {
+        BedSound.play ()
+        BedIcon.src = "img/Changed/chg_2.png"
+        setTimeout (() => {
+            BedIcon.src = "img/Original/ori_2.png"
+        }, 2000)
+    }
+
+    const BookIcon = document.getElementById ("Book_Icon")
+    const BookSound = new Audio ()
+    BookSound.src = "Sound/3.mp3"
+    BookIcon.onpointerdown = () => {
+        BookSound.play ()
+        BookIcon.src = "img/Changed/chg_3.png"
+        setTimeout (() => {
+            BookIcon.src = "img/Original/ori_3.png"
+        }, 2000)
+    }
+
+    const BrainIcon = document.getElementById ("Brain_Icon")
+    const BrainSound = new Audio ()
+    BrainSound.src = "Sound/4.mp3"
+    BrainIcon.onpointerdown = () => {
+        BrainSound.play ()
+        BrainIcon.src = "img/Changed/chg_4.png"
+        setTimeout (() => {
+            BrainIcon.src = "img/Original/ori_4.png"
+        }, 2000)
+    }
+
+    const StatsIcon = document.getElementById ("Stats_Icon")
+    const StatsSound = new Audio ()
+    StatsSound.src = "Sound/5.mp3"
+    StatsIcon.onpointerdown = () => {
+        StatsSound.play ()
+        StatsIcon.src = "img/Changed/chg_5.png"
+        setTimeout (() => {
+            StatsIcon.src = "img/Original/ori_5.png"
+        }, 2000)
+    }
+
+    const StarIcon = document.getElementById ("Star_Icon")
+    const StarSound = new Audio ()
+    StarSound.src = "Sound/6.mp3"
+    StarIcon.onpointerdown = () => {
+        StarSound.play ()
+        StarIcon.src = "img/Changed/chg_6.png"
+        setTimeout (() => {
+            StarIcon.src = "img/Original/ori_6.png"
+        }, 2000)
+    }
+
+    const SpiralIcon = document.getElementById ("Spiral_Icon")
+    const SpiralSound = new Audio ()
+    SpiralSound.src = "Sound/7.mp3"
+    SpiralIcon.onpointerdown = () => {
+        SpiralSound.play ()
+        SpiralIcon.src = "img/Changed/chg_7.png"
+        setTimeout (() => {
+            SpiralIcon.src = "img/Original/ori_7.png"
+        }, 2000)
+    }
+
+    const EyeIcon = document.getElementById ("Eye_Icon")
+    const EyeSound = new Audio ()
+    EyeSound.src = "Sound/8.mp3"
+    EyeIcon.onpointerdown = () => {
+        EyeSound.play ()
+        EyeIcon.src = "img/Changed/chg_8.png"
+        setTimeout (() => {
+            EyeIcon.src = "img/Original/ori_8.png"
+        }, 2000)
+    }
+
+    const HouseIcon = document.getElementById ("House_Icon")
+    const HouseSound = new Audio ()
+    HouseSound.src = "Sound/9.mp3"
+    HouseIcon.onpointerdown = () => {
+        HouseSound.play ()
+        HouseIcon.src = "img/Changed/chg_9.png"
+        setTimeout (() => {
+            HouseIcon.src = "img/Original/ori_9.png"
+        }, 2000)
+    }
+</script>
+</html>
